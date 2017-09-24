@@ -14,4 +14,12 @@ end
 #output the #{number} SECOND(S)!
 #return happy new year after loop finishes
 
-countdown(counter)
+def countdown_with_sleep(count)
+  while counter > 0
+    puts "#{counter} SECOND(S)!"
+    counter -= 1
+    sleep(1)
+  end
+  "HAPPY NEW YEAR!"
+end
+  
