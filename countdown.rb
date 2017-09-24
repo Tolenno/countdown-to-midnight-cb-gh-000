@@ -11,3 +11,5 @@ end
 #countdown from counter 10 to 0
 #output the #{number} SECOND(S)!
 #return happy new year after loop finishes
+
+countdown(counter)
